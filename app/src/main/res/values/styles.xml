@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:minHeight">@dimen/bottom_nav_height</item>
+        <item name="itemTextAppearanceActive">@style/BottomNavigationView.TextAppearance</item>
+        <item name="itemTextAppearanceInactive">@style/BottomNavigationView.TextAppearance</item>
+        <item name="itemIconSize">@dimen/bottom_nav_icon_size</item>
+    </style>
+
+    <style name="BottomNavigationView.TextAppearance" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">@dimen/bottom_nav_text_size</item>
+    </style>
+</resources> 
